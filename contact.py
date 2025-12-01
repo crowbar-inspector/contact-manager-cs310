@@ -180,7 +180,7 @@ def search_contacts(fname_tree, lname_tree, phone_tree, contacts):
             if query in c.first_name.lower()
         ]
 
-    elif option == "3":
+    elif option == "2":
         query = input("Enter last name: ").strip().lower()
         matches = [
             c for c in contacts
